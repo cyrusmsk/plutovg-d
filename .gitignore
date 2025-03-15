@@ -1,24 +1,16 @@
-# Compiled Object files
-*.o
-*.obj
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Compiled Static libraries
-*.a
-*.lib
-
-# Executables
-*.exe
-
-# DUB
 .dub
 docs.json
 __dummy.html
 docs/
-
-# Code coverage
+/plutovg-d
+plutovg-d.so
+plutovg-d.dylib
+plutovg-d.dll
+plutovg-d.a
+plutovg-d.lib
+plutovg-d-test-*
+*.exe
+*.pdb
+*.o
+*.obj
 *.lst

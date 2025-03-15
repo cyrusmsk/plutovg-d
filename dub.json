@@ -1,0 +1,17 @@
+{
+    "libs": [
+        "plutovg"
+    ],
+    "lflags-posix": [
+        "-L.",
+        "-L./lib/object"
+    ],
+    "dflags-ldc": ["source/plutovg_lib.c", "-I.lib/include"],
+	"authors": [
+		"Sergei Giniatulin"
+	],
+	"copyright": "Copyright © 2025, Sergei Giniatulin",
+	"description": "Minimal example for Plutovg in D",
+	"license": "MIT",
+	"name": "plutovg-d"
+}
